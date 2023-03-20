@@ -1,0 +1,65 @@
+#suppliers table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 0%;
+    height: 200%;
+   
+  }
+  
+td, th {
+    border: 1px solid #ff5100;
+    text-align: left;
+    padding: 8px;
+  }
+ tr:nth-child(even) {
+    background-color: #ff9500;
+  }     
+
+  tr:nth-child(odd) {
+    background-color: #ffcc00;
+  }  
+
+tr:hover{
+    background-color: orangered;
+  }
+
+  th{
+    background-color: #ff5100;
+  }
+
+  body{
+    background-image: url('/public/images/background.jpg');
+  }
+
+  .button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    font-size: 13px;
+    margin-top: 2%;
+    border-radius: 10px;
+  }
+
+  .button3 {
+    font-size: 13px;
+    margin-top: auto;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+
+  .button4 {
+    font-size: 13px;
+    margin-top: auto;
+    border-radius: 10px;
+  
+  }

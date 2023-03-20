@@ -1,0 +1,49 @@
+
+#createform input[type=text], select {
+    padding: 12px 20px;
+    width: 40%;
+    margin-left: 4%;
+    display: block;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #createform label{
+    padding: 12px 20px;
+    width: 40%;
+    margin-left: 4%;
+    display: block;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #createform input[type=submit] {
+    width: 20%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  
+  #createform input[type=submit]:hover {
+    background-color: #fa7a0b;
+  }
+  
+#createform {
+    border-radius: 5px;
+   margin-left: 30%;
+    padding: 20px;
+    text-decoration: bold;
+    font-size: 20px;
+  }
+
+#createform .create{
+  margin-right: 50%;
+  font-size: 30px;
+}
