@@ -7,8 +7,8 @@ const cors = require("cors");
  //mysql connection
 const db = mysql.createPool({
     host: "localhost",
-    user: "root",
-    password: "1234",
+    user: "192.168.1.48",
+    password: "root",
     database: "remotecodersdb"
 });
 
@@ -66,6 +66,12 @@ app.get("/", (req,res)=>{
 
 
 //loclhost 5003 connect query
-app.listen(5003, () => {
-    console.log("Server is running on port 5003 (productskxserver)");
-})
+// app.listen(5003, () => {
+//     console.log("Server is running on port 5003 (productskxserver)");
+// })
+
+const PORT = process.env.PORT || 5003;
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});

@@ -60,6 +60,9 @@ app.post("/login", (req,res) => {
 //   console.log("3002")
 // });
 
-const PORT = process.env.PORT || 3003
 
-app.listen(PORT, () => console.log('loginserver '+ PORT));
+const PORT = process.env.PORT || 3002;
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});
