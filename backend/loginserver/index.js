@@ -60,8 +60,6 @@ app.post("/login", (req,res) => {
 //   console.log("3002")
 // });
 
-// const app = express();
-app.set('port', process.env.PORT);
+const PORT = process.env.PORT || 3003
 
-app.use((req, res) => { 3003 });
-app.listen(app.get('port'));
+app.listen(PORT, () => console.log('loginserver '+ PORT));
