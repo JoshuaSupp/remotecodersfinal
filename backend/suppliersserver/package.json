@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "suppliersserver": "nodemon index"
+    "suppliersserver": "nodemon index",
+    "build": "npm i",
+    "dev": "nodemon index"
   },
   "author": "",
   "license": "ISC",

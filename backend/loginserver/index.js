@@ -56,6 +56,12 @@ app.post("/login", (req,res) => {
 });
 
 
-app.listen(3002,() =>{
-  console.log("3002")
-});
+// app.listen(3002,() =>{
+//   console.log("3002")
+// });
+
+// const app = express();
+app.set('port', process.env.PORT);
+
+app.use((req, res) => { 3003 });
+app.listen(app.get('port'));
