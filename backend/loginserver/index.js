@@ -8,8 +8,8 @@ app.use(cors());
 
 const db = mysql.createConnection({
   user: "root",
-  host: "192.168.1.48",
-  password: "root",
+  host: "localhost",
+  password: "1234",
   database: "remotecodersdb"
 })
 
@@ -60,6 +60,6 @@ app.post("/login", (req,res) => {
 //   console.log("3002")
 // });
 
-const PORT = process.env.PORT || 3003
+const PORT = process.env.PORT || 3002
 
 app.listen(PORT, () => console.log('loginserver '+ PORT));

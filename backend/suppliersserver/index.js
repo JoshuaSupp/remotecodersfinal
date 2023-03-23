@@ -5,12 +5,13 @@ const mysql = require("mysql2");
 const cors = require("cors");
 
  //mysql connection
-const db = mysql.createPool({
+ const db = mysql.createConnection({
+    user: "root",
     host: "localhost",
-    user: "192.168.1.48",
-    password: "root",
+    password: "1234",
     database: "remotecodersdb"
-});
+  })
+  
 
 
 module.exports = db;
